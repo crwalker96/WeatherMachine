@@ -2,8 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="WeatherIcons.css">
         <link rel="stylesheet" type="text/css" href="Weather.css">
     </head>
     <body>
@@ -13,13 +16,13 @@
             <div id="weather">
                 <h3 id="location">
                 </h3>
-                <h3 id="temperature">
-                    <span class="fake-link" id="degree-unit">F</span>
-                </h3>
+                <div>
+                    <h3 id="temperature"><span class="fake-link" id="degree-unit"></span></h3>
+                </div>
                 <h3 id="conditions">
                 </h3>
-                <img id="weather-image" />
             </div>
+            <div id="image"></div>
             <p>By Casey R. Walker</p>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
